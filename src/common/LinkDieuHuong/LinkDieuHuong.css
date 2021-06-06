@@ -1,0 +1,30 @@
+.linkDHWrap{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 7px;
+}
+.linkDHWrap .linkDieuHuongIcon{
+  color: white;
+  font-weight: bold;
+}
+.linkDHWrap .linklinkDH{
+  color: white;
+  text-decoration: none;
+  margin-left: 3px;
+  font-weight: bold;
+}
+@media (max-width:576px){
+  .linkDHWrap .linklinkDH{
+    color: white;
+   font-size: 12px;
+  }
+  .LinkDieuHuong .iconngancach{
+    color:white;
+    font-size: 13px;
+  }
+}
+.iconngancach{
+  color:white;
+  font-size: small;
+}

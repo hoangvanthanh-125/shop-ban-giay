@@ -1,0 +1,1 @@
+export const API_ENDPOINT= 'https://603636dac3d42700172e6655.mockapi.io/thanh';

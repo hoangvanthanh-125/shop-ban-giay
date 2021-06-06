@@ -1,0 +1,161 @@
+@font-face {
+  font-family: neon;
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
+}
+
+.nameshop {
+  font-family: neon;
+  color: #fb4264;
+  font-weight: 700;
+  text-shadow: 0 0 3vw #f40a35;
+  font-size: large;
+}
+
+.nameshop {
+  animation: nameshop 3s ease infinite;
+  -moz-animation: nameshop 3s ease infinite;
+  -webkit-animation: nameshop 3s ease infinite;
+}
+@media only screen and (max-width: 768px) {
+  .nameshop {
+    /* //display: none; */
+    font-size: 12px;
+    width: 100px;
+  }
+}
+@media only screen and (max-width: 484px) {
+  .nameshop {
+    /* //display: none; */
+    font-size: 10px;
+    width: 90px;
+  }
+}
+@media only screen and (max-width: 385px) {
+  .nameshop {
+    /* //display: none; */
+    font-size: 6.5px;
+    width: 50px;
+  }
+}
+.inputSearch {
+  outline: none;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  width: 200px;
+  margin-left: 20px;
+  cursor: pointer;
+  box-shadow: 3px 3px 3px gray;
+}
+.buttonSearch:hover {
+  opacity: 0.7;
+}
+.inputSearch:focus {
+  border: 1px solid teal;
+}
+.buttonSearch {
+  border: none;
+  outline: none;
+  background: black;
+  border-radius: 5px;
+  margin-left: 3px;
+  color: lightgray;
+  transition: all ease-in 0.3s;
+  box-shadow: 3px 3px 3px gray;
+  height: 26px;
+}
+.buttonSearch .iconSeacrvh {
+  font-size: 23px;
+}
+@media (max-width: 971px) {
+  .inputSearch {
+    width: 180px;
+  }
+}
+@media (max-width: 956px) {
+  .inputSearch {
+    width: 400px;
+  }
+}
+@media (max-width: 816px) {
+  .inputSearch {
+    width: 340px;
+  }
+}
+@media (max-width: 777px) {
+  .inputSearch {
+    width: 200px;
+  }
+}
+@media (max-width: 706px) {
+  .inputSearch {
+    width: 170px;
+  }
+}
+@media (max-width: 640px) {
+  .inputSearch {
+    width: 130px;
+    margin-left: 10px;
+  }
+}
+@media (max-width: 522px) {
+  .inputSearch {
+    width: 110px;
+    margin-left: 5px;
+  }
+}
+@media (max-width: 413px) {
+  .inputSearch {
+    width: 90px;
+    margin-left: 5px;
+  }
+  .buttonSearch .iconSeacrvh {
+    font-size: small;
+  }
+}
+@media (max-width: 386px) {
+  .inputSearch {
+    width: 70px;
+    margin-left: 2px;
+  }
+  .buttonSearch .iconSeacrvh {
+    font-size: small;
+  }
+}
+@keyframes nameshop {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #fa1c16, 0 0 1vw #fa1c16, 0 0 5vw #fa1c16,
+      0 0 5vw #fa1c16, 0 0 0.4vw #fed128, 0.1vw 0.1vw 0.1vw #806914;
+    color: #fed128;
+  }
+  50% {
+    text-shadow: 0 0 0.5vw #800e0b, 0 0 1.5vw #800e0b, 0 0 1vw #800e0b,
+      0 0 3vw #800e0b, 0 0 0.2vw #800e0b, 0.1vw 2px 0.1vw #40340a;
+    color: teal;
+  }
+}
+.iconButtonCartIcon .cartIconHeader {
+  color: white;
+  font-size: 15px;
+}
+.iconButtonCartIcon {
+  width: 35px;
+  height: 35px;
+  border-radius: 35px;
+  background-image: linear-gradient(#00537e, #a1d8c6);
+  box-shadow: 3px 2px 3px gray;
+}
+@media (max-width: 3000px) {
+  .iconButtonCartIcon {
+    width: 24px;
+    height: 24px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .iconButtonCartIcon .cartIconHeader {
+    color: white;
+    font-size: 13px;
+  }
+}

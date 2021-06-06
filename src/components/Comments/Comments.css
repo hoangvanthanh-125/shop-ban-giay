@@ -1,0 +1,122 @@
+.progressStar {
+  width: 400px;
+}
+.wraplistStar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapthutuStar {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapAllStarCss {
+  display: flex;
+}
+.quantityDanhgia {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.quantityDanhgia > .sophantram {
+  font-size: small;
+}
+.quantityDanhgia .sodanhgia {
+  color: blue;
+  margin-left: 10px;
+}
+.đanhgiatbWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px lightgray;
+  padding: 20px 20px;
+  margin: 20px 0;
+}
+.danhgiaTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.danhgiaTitle > h3 {
+  color: rgb(74, 74, 190);
+}
+.danhgiaTitle > h4 {
+  color: rgb(238, 172, 50);
+}
+@media (max-width: 915px) {
+  .progressStar {
+    width: 300px;
+  }
+}
+@media (max-width: 788px) {
+  .progressStar {
+    width: 200px;
+  }
+}
+@media (max-width: 692px) {
+  .progressStar {
+    width: 180px;
+  }
+  .đanhgiatbWrap {
+    padding: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media (max-width: 431px) {
+  .progressStar {
+    width: 150px;
+  }
+}
+@media (max-width: 372px) {
+  .progressStar {
+    width: 100px;
+  }
+}
+@media (max-width: 333px) {
+  .progressStar {
+    width: 80px;
+  }
+}
+.inputCommentsCss {
+  border: 1px solid gray;
+  width: 250px;
+  height: 70px;
+  outline: none;
+  border-radius: 13px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  box-shadow: 3px 3px 3px lightgray;
+  margin-top: 10px;
+}
+.buttonSubmitComnent {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 70px;
+  height: 50px;
+  background: black;
+  color: white;
+  box-shadow: 3px 3px 3px grey;
+}
+@media (max-width: 380px) {
+  .sodanhgia {
+    font-size: x-small;
+  }
+  .sophantram {
+    font-size: x-small;
+  }
+  .inputCommentsCss {
+    width: 190px;
+  }
+}

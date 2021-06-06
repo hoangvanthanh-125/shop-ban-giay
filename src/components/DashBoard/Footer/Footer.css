@@ -1,0 +1,48 @@
+.listLogo {
+  display: flex;
+  background-color: black;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+}
+.listLogo > img {
+  width: 100px;
+  height: 100px;
+}
+.footerCss {
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+  .listLogo > img {
+    width: 60px;
+    height: 60px;
+  }
+  .listTitleContact {
+    font-size: 12px;
+  }
+}
+.iconFb {
+  color: blue;
+  margin-right: 5px;
+  font-size: xx-large;
+}
+.iconInsta {
+  color: chocolate;
+  margin-right: 5px;
+  font-size: xx-large;
+}
+.iconTW {
+  color: rgb(106, 106, 190);
+  margin-right: 5px;
+  font-size: xx-large;
+}
+.gridItemFooter {
+  padding-left: 20px;
+  font-size: x-small;
+}
+@media (max-width: 576px) {
+  .gridItemFooter > h3 {
+    font-size: 11px;
+  }
+}

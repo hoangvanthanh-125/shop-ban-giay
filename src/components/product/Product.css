@@ -1,0 +1,278 @@
+.cardProductCss {
+  margin-top: 8px;
+  margin-left: 20px;
+  width: 200px;
+  position: relative;
+  height: 260px;
+  word-break: break-all;
+  transition: transform ease-in 0.4s;
+  margin-top: 20px;
+  word-wrap: break-word;
+  display: flex;
+  flex-direction: column;
+}
+.MuiCard-root {
+  transition: transform ease-in 0.4s;
+}
+.MuiCard-root:hover {
+  transform: scale(1.05);
+}
+@media (max-width: 2000px) {
+  .cardProductCss {
+    margin-left: 30px;
+  }
+}
+@media (max-width: 1140px) {
+  .cardProductCss {
+    width: 190px;
+    height: 250px;
+    margin-left: 20px;
+  }
+  .cardProductCss span {
+    font-size: 11px;
+  }
+}
+@media (max-width: 1090px) {
+  .cardProductCss {
+    width: 180px;
+    height: 250px;
+  }
+}
+@media (max-width: 1040px) {
+  .cardProductCss {
+    width: 170px;
+    height: 250px;
+  }
+}
+@media (max-width: 991px) {
+  .cardProductCss {
+    width: 160px;
+    height: 250px;
+  }
+}
+@media (max-width: 940px) {
+  .cardProductCss {
+    width: 150px;
+    height: 250px;
+  }
+}
+@media (max-width: 890px) {
+  .cardProductCss {
+    width: 150px;
+    height: 250px;
+    margin-left: 12px;
+  }
+}
+@media (max-width: 850px) {
+  .cardProductCss {
+    width: 150px;
+    height: 250px;
+    margin-left: 8px;
+  }
+}
+@media (max-width: 830px) {
+  .cardProductCss {
+    width: 170px;
+    height: 250px;
+    margin-left: 15px;
+  }
+}
+@media (max-width: 780px) {
+  .cardProductCss {
+    width: 160px;
+    height: 250px;
+    margin-left: 15px;
+  }
+}
+@media (max-width: 741px) {
+  .cardProductCss {
+    width: 160px;
+    height: 250px;
+    margin-left: 10px;
+  }
+}
+@media (max-width: 720px) {
+  .cardProductCss {
+    width: 150px;
+    height: 250px;
+    margin-left: 10px;
+  }
+}
+@media (max-width: 701px) {
+  .cardProductCss {
+    width: 190px;
+    height: 250px;
+    margin-left: 15px;
+  }
+}
+@media (max-width: 671px) {
+  .cardProductCss {
+    width: 180px;
+    height: 250px;
+  }
+}
+@media (max-width: 626px) {
+  .cardProductCss {
+    width: 170px;
+    height: 250px;
+  }
+}
+@media (max-width: 596px) {
+  .cardProductCss {
+    width: 160px;
+    height: 250px;
+  }
+}
+@media (max-width: 566px) {
+  .cardProductCss {
+    width: 155px;
+    height: 250px;
+    margin-left: 10px;
+  }
+}
+@media (max-width: 536px) {
+  .cardProductCss {
+    width: 150px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 520px) {
+  .cardProductCss {
+    width: 142px;
+    height: 250px;
+  }
+}
+@media (max-width: 496px) {
+  .cardProductCss {
+    width: 135px;
+    height: 250px;
+  }
+
+  @media (max-width: 476px) {
+    .cardProductCss {
+      width: 190px;
+      height: 250px;
+      margin-left: 15px;
+    }
+  }
+}
+@media (max-width: 450px) {
+  .cardProductCss {
+    width: 180px;
+    height: 230px;
+    font-size: small;
+  }
+  @media (max-width: 430px) {
+    .cardProductCss {
+      width: 170px;
+      height: 230px;
+      font-size: small;
+    }
+  }
+  .cardProductCss span {
+    font-size: x-small;
+  }
+  .cardProductCss p {
+    font-size: x-small;
+  }
+}
+@media (max-width: 360px) {
+  .cardProductCss {
+    width: 138px;
+    height: 230px;
+    font-size: small;
+    height: 220px;
+  }
+  .cardProductCss span {
+    font-size: xx-small;
+  }
+  .cardProductCss p {
+    font-size: x-small;
+  }
+}
+@media (max-width: 410px) {
+  .cardProductCss {
+    width: 160px;
+    height: 230px;
+    font-size: small;
+  }
+}
+@media (max-width: 390px) {
+  .cardProductCss {
+    width: 150px;
+    height: 230px;
+    font-size: small;
+  }
+}
+@media (max-width: 370px) {
+  .cardProductCss {
+    width: 150px;
+    height: 230px;
+    font-size: small;
+    margin-left: 10px;
+  }
+}
+@media (max-width: 361px) {
+  .cardProductCss {
+    width: 145px;
+    height: 230px;
+    font-size: small;
+    margin-left: 10px;
+  }
+}
+@media (max-width: 351px) {
+  .cardProductCss {
+    width: 140px;
+    height: 230px;
+    font-size: small;
+    margin-left: 10px;
+  }
+}
+@media (max-width: 340px) {
+  .cardProductCss {
+    width: 135px;
+    height: 230px;
+    font-size: small;
+    margin-left: 10px;
+  }
+}
+@media (max-width: 331px) {
+  .cardProductCss {
+    width: 130px;
+    height: 230px;
+    font-size: small;
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 327px) {
+  .cardProductCss {
+    width: 128px;
+    height: 230px;
+    font-size: small;
+    height: 220px;
+  }
+  .cardProductCss span {
+    font-size: xx-small;
+  }
+  .cardProductCss p {
+    font-size: x-small;
+  }
+}
+.starTbCSS {
+  margin: auto;
+  margin-top: 5px;
+}
+.starQuantityCss {
+  font-size: x-small;
+}
+.starTbCSS svg {
+  font-size: 17px;
+}
+.chuacodanhgia {
+  margin: auto;
+  font-size: x-small;
+  color: gray;
+  margin-top: 5px;
+}

@@ -1,0 +1,12 @@
+.wrapSanphamtuongtu {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.titleSanphamtuongtu {
+  margin: auto;
+}
+.buttonSanphamtuongtu {
+  margin: auto;
+  margin-top: 10px;
+}

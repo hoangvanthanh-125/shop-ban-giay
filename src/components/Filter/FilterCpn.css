@@ -1,0 +1,53 @@
+.min-max {
+  width: 80px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 30px;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.filter input:focus {
+  border: 1px solid teal;
+}
+label {
+  font-weight: 700;
+}
+.inputMinMax {
+  display: flex;
+
+  flex-direction: column;
+}
+.button-filter {
+  width: 80px;
+  margin-top: 10px;
+  background-color: teal;
+  border: none;
+  outline: none;
+  box-shadow: 2px 2px 3px gray;
+  border-radius: 3px;
+  height: 30px;
+  color: aliceblue;
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: 25px;
+}
+.button-filter:hover {
+  opacity: 0.8;
+}
+.button-filter {
+  transition: all ease-in 0.3s;
+}
+.filter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.button-filter-2 {
+  /* margin-left : 15px; */
+  background-color: brown;
+}
+.wrapButtonFilter {
+  box-sizing: content-box;
+}

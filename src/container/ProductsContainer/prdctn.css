@@ -1,0 +1,108 @@
+.controlCss {
+  display: flex;
+  justify-content: space-around;
+  align-items: "center";
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+@media (max-width: 388px) {
+  .controlCss {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  .controlCss > div {
+    margin: auto;
+  }
+  .controlCss .sortContianer {
+    margin-left: auto;
+    margin-bottom: 15px;
+  }
+}
+.anhAllGiay {
+  width: 100%;
+  height: 80vh;
+  position: relative;
+
+  background-image: url("https://www.elleman.vn/wp-content/uploads/2018/08/13/gi%C3%A0y-sneakers-2-elle-man-8.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.delen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  width: 100%;
+  height: 80vh;
+}
+.titletatCasanPham {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.titletatCasanPham h3 {
+  color: white;
+}
+@media (max-width: 576px) {
+  .delen {
+    height: 70vh;
+  }
+  .anhAllGiay {
+    height: 70vh;
+  }
+}
+.controlCss {
+  box-sizing: border-box;
+  border: 0.6px solid lightgray;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  background: rgb(248, 247, 247);
+  box-shadow: 3px 3px 5px gray;
+}
+.AllProductCss {
+  box-sizing: border-box;
+  border: 0.6px solid lightgray;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  background: rgb(248, 247, 247);
+  box-shadow: 3px 3px 5px gray;
+}
+.paginationWrapCSS .buttonPagination {
+  border: none;
+  outline: none;
+  color: white;
+  background: black;
+  padding: 3px;
+  box-shadow: 3px 3px 3px lightgray;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  width: 70px;
+}
+.paginationWrapCSS {
+  margin-left: 40%;
+}
+.paginationWrapCSS .buttonPage {
+  background: rgb(214, 202, 202);
+  border: none;
+  height: 27px;
+  margin: 0 5px;
+  width: 40px;
+  font-weight: bold;
+}
+.disabled {
+  opacity: 0.5;
+}

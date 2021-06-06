@@ -1,0 +1,64 @@
+.wraptotalMoneyCss{
+  
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px lightgray;
+  padding:15px;
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 50px;
+  height: 200px;
+  margin-right: 10px;
+  position: sticky;
+  top: 120px;
+  transition: all 1s ease-in-out;
+
+}
+.wrapCssCartContainer{
+  display: flex;
+  position: relative;
+}
+.weapCertItemCss{
+  flex: 2;
+}
+
+
+@media (max-width:576px){
+.wrapCssCartContainer{
+  display: flex;
+  flex-direction:column ;
+}
+.wraptotalMoneyCss{
+  margin-top: 20px;
+  font-size: small;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+}
+}
+.linkDhinCart{
+  margin-left: 40px;
+  animation: giohang 0.5s;
+}
+.titleGioHang{
+ margin-left: 40px;
+ margin-top: 20px;
+ font-weight: bold;
+ font-size: 30px;
+ margin-bottom: 0;
+ font-family: monospace;
+ animation: giohang 2s;
+ transition: all ease-in-out 2s;
+}
+@keyframes giohang{
+  0%{
+    margin-left: 0;
+  }
+ 
+  100%{
+    margin-left: 40px;
+  }
+}

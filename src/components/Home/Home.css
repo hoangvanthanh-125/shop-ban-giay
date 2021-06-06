@@ -1,0 +1,71 @@
+.videoBgr {
+  width: 100%;
+}
+.imageBgr {
+  width: 100%;
+  object-fit: contain;
+}
+
+.DichvuShop {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.buttonDichVuShop {
+  word-break: break-all;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  box-sizing: initial;
+  width: 200px;
+  max-width: 200px;
+  height: 50px;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border: 1px solid lightgray;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.buttonDichVuShop > span {
+  margin-left: 5px;
+}
+.imgthuonghieu {
+  width: 150px;
+  height: 150px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 8px 8px 3px lightgray;
+  transition: transform ease-in 0.3s;
+  cursor: pointer;
+}
+.imgthuonghieu:hover {
+  transform: scale(1.1);
+}
+.listAnhThuonghieu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.allThuonghieu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (max-width: 444px) {
+  .buttonDichVuShop {
+    width: 170px;
+  }
+}
+@media (max-width: 387px) {
+  .buttonDichVuShop {
+    width: 160px;
+    font-size: x-small;
+  }
+}
